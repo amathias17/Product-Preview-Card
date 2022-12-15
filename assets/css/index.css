@@ -2,6 +2,7 @@
 :root {
   --clr-primary-dark-cyan: hsl(158deg, 36%, 37%);
   --clr-primary-cream: hsl(30deg, 38%, 92%);
+  --clr-primary-hover: hsl(156deg, 42%, 18%);
   --clr-neutral-dark-blue: hsl(212deg, 21%, 14%);
   --clr-neutral-gray-blue: hsl(228deg, 12%, 48%);
   --clr-neutral-whiteish: hsl(0deg, 0%, 100%);
@@ -169,6 +170,11 @@ main {
   padding: 16px 92px;
   border-radius: 8px;
   border-width: 0px;
+}
+
+.card__button:hover {
+  background-color: var(--clr-primary-hover);
+  cursor: pointer;
 }
 @media only screen and (min-width: 40rem) {
   .card__button {
